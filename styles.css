@@ -1,0 +1,96 @@
+/*  HEIGHTS
+header 10%
+both sides 60%
+two rows 20%
+footer 10% 
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+div{
+    margin: 2px;
+}
+/* containers style */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.both-sides{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+/* kaire */
+.left-column{ 
+    flex-direction: column;
+    width: 30%;
+    height: 60%;
+}
+
+
+/* desne */
+.right-column{
+    flex-direction: column;
+    border: 0 !important;
+    width: 70%;
+    height: 60%;
+}
+/* right column */
+.main{
+    background-color: darkgoldenrod;
+    height: 70%;
+}
+.extra-cont{
+    background-color: darkgrey;
+}
+
+/* apacia */
+.two-row{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    height: 20%;
+}
+
+/* Header / footer */
+header{
+    background-color: aqua;
+    width: 100%;
+    height: 10%;
+}
+/* column left */
+.hero{
+    background-color: blanchedalmond;
+}
+.aside{
+    background-color: chartreuse;
+}
+
+/* two-row */
+
+.image-sec{
+    background-color: green;
+    width: 70%;
+}
+.related{
+    background-color: hotpink;
+    width: 30%;
+}
+
+/* footer */
+
+footer{
+    background-color: orange;
+    width: 100%;
+    height: 10%;
+}
